@@ -345,7 +345,7 @@ abstract class ZonatmoTo : HttpSource() {
     }
 
     companion object {
-        private const val SOURCE_HOST = "zonatmo.to"
+        private const val SOURCE_HOST = "zonatmo.net"
         private const val CDN_URL = "https://cdn.$SOURCE_HOST"
         private const val CHAPTERS_PER_PAGE = 50
 
